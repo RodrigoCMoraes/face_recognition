@@ -1,7 +1,9 @@
 # Status of project: ON GOING
 
 # Face Recognition
-Based on [MTCNN](https://github.com/ipazc/mtcnn)
+This project is based on [MTCNN](https://github.com/ipazc/mtcnn) and pretend to work with Face Recognition, where faces might has oclusion of its parts.
+
+![Demo](https://github.com/RodrigoCMoraes/face_recognition/blob/master/demo_faces.jpg)
 
 # Features implemented:
 * Detect faces
@@ -10,9 +12,9 @@ Based on [MTCNN](https://github.com/ipazc/mtcnn)
 * Calculate time of operations
 
 # Features to be implemented:
-* Augment face images
-* Extract features(embeddings) from augmented images
-* Train classifier to recognize people
+* Augment face images ([TensorFlow](https://github.com/tensorflow/tensorflow))
+* Extract features(embeddings) from augmented images([FaceNet](https://github.com/davidsandberg/facenet))
+* Train classifier to recognize people([KNN CUDA](https://github.com/chrischoy/knn_cuda))
 
 # Setup used for generate this code:
 * For Windows and Linux are used latest Python from [Anaconda](https://www.anaconda.com/download/#linux)
