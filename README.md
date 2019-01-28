@@ -9,6 +9,11 @@ Based on [MTCNN](https://github.com/ipazc/mtcnn)
 * Save faces detected
 * Calculate time of operations
 
+# Features to be implemented:
+* Augment face images
+* Extract features(embeddings) from augmented images
+* Train classifier to recognize people
+
 # Setup used for generate this code:
 * For Windows and Linux are used latest Python from [Anaconda](https://www.anaconda.com/download/#linux)
 * SO versions: Windows 10 x64 Pro and Linux Mint 19 x64
