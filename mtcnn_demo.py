@@ -1,6 +1,11 @@
 # remove tensorflow messages and deprecation from mtcnn packages
-import tensorflow as tf
 import os
+import sys
+
+if len(sys.argv) > 1 and sys.argv[1] == '--cpu':
+    os.environ["CUDA_VISIBLE_DEVICES"] = '-1'
+
+import tensorflow as tf
 tf.logging.set_verbosity(tf.logging.ERROR)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 ################################################################
