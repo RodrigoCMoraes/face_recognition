@@ -77,7 +77,7 @@ python mtcnn_demo.py
 (write_image) time: 0.00s
 ```
 ## Expected output images:
-![Demo](https://github.com/RodrigoCMoraes/face_recognition/blob/master/demo_faces.jpg)
+![Demo](https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/demo_faces.jpg)
 
 | | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
