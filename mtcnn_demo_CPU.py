@@ -3,7 +3,11 @@ import tensorflow as tf
 import os
 tf.logging.set_verbosity(tf.logging.ERROR)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1' #To use CPU
 ################################################################
+
+##Checking if TF is using GPU or not
+print(tf.test.is_gpu_available())
 
 # decorator to time function 
 def timeit(method):
