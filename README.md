@@ -3,7 +3,7 @@
 # Face Recognition
 This project is based on [MTCNN](https://github.com/ipazc/mtcnn) and pretend to work with Face Recognition, where faces might has oclusion of its parts.
 
-![Demo](https://github.com/RodrigoCMoraes/face_recognition/blob/master/demo_faces.jpg)
+![Demo](https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/demo_faces.jpg)
 
 # Features implemented:
 * Detect faces
@@ -81,6 +81,6 @@ python mtcnn_demo.py
 
 | | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/docs/face_0.jpg">  |  <img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/docs/face_3.jpg">|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/docs/face_6.jpg">|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/docs/face_9.jpg">|
-|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/docs/face_1.jpg">  |  <img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/docs/face_4.jpg">|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/docs/face_7.jpg">|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/docs/face_10.jpg">|
-|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/docs/face_2.jpg">  |  <img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/docs/face_5.jpg">|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/docs/face_8.jpg">||
+|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/face_0.jpg">  |  <img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/face_3.jpg">|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/face_6.jpg">|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/face_9.jpg">|
+|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/face_1.jpg">  |  <img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/face_4.jpg">|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/face_7.jpg">|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/face_10.jpg">|
+|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/face_2.jpg">  |  <img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/face_5.jpg">|<img width="80" src="https://github.com/RodrigoCMoraes/face_recognition/blob/master/img/face_8.jpg">||
