@@ -1,0 +1,10 @@
+name: face_recognition
+channels:
+  - anaconda
+  - defaults
+dependencies:
+  - tensorflow-gpu=1.14.0
+  - pip:
+    - keras==2.3.1
+    - mtcnn==0.0.9
+    - opencv-python==4.0.0.21
