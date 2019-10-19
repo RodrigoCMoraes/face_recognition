@@ -18,23 +18,14 @@ This project is based on [MTCNN](https://github.com/ipazc/mtcnn) and pretend to 
 
 # Setup used for generate this code:
 * For Windows and Linux are used latest Python from [Anaconda](https://www.anaconda.com/download/#linux)
-* SO versions: Windows 10 x64 Pro and Linux Mint 19 x64
+* SO versions: Windows 10 x64 Pro and Linux Mint and Ubuntu 19 x64
 * Conda environment with commands:
   ```
   # create environment
-  conda create -n ai python=3.6
+  conda create -f environment.yml
   
-  # activate environment Windows
-  conda activate ai
-  
-  # activate environment in Linux
-  source activate ai
-  
-  # install dependencies with environment activated - windows
-  pip install -r requirements_windows.txt # windows
-  
-  # install dependencies with environment activated - linux
-  pip install -r requirements_linux.txt   # linux
+  # activate environment
+  conda activate face_recognition
   ```
 # Demo
 1. Clone this repository
